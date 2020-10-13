@@ -8,6 +8,7 @@ namespace _1_PrimeiroProjeto
         {
             Console.WriteLine("Hello World! Project in Visual Studio!");
 
+            Console.WriteLine("A execução acabou. Tecle enter para finalizar. . .");
             Console.ReadLine();
         }
     }
