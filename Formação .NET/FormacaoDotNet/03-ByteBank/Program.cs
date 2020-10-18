@@ -36,6 +36,11 @@ namespace _03_ByteBank
             Console.WriteLine(contaGabriela.saldo);
             Console.WriteLine(contaGabrielaCosta.saldo);
 
+            if (contaGabriela.saldo >= 100)
+            {
+                contaGabriela.saldo -= 100;
+            }
+
             Console.ReadLine();
         }
     }
