@@ -9,7 +9,7 @@ namespace ByteBank
         {
             GerenciadorBonificacao gerenciador = new GerenciadorBonificacao();
 
-            Funcionario carlos = new Funcionario(1);
+            Funcionario carlos = new Funcionario();
             carlos.Nome = "Carlos";
             carlos.CPF = "000.000.000.-00";
             carlos.Salario = 2000;
@@ -20,6 +20,11 @@ namespace ByteBank
             roberta.Nome = "Roberta";
             roberta.CPF = "000.000.000.-01";
             roberta.Salario = 5000;
+
+            Funcionario robertaTeste = roberta;
+
+            Console.WriteLine("Bonificação de uma referencia de diretor: " + roberta.Salario);
+            Console.WriteLine("Bonificação de uma referencia de funcionario: " + robertaTeste.Salario);
             
             gerenciador.Registrar(roberta);
 
