@@ -3,23 +3,23 @@ using System;
 
 namespace ByteBank.Funcionarios
 {
-    public class Diretor : Autenticavel
+    public class GerenteDeConta : Autenticavel
     {
-        public Diretor(string cpf) : base(5000, cpf)
+        public GerenteDeConta(string cpf) : base(4000, cpf)
         {
-            Console.WriteLine("criando Diretor");
+            Console.WriteLine("criando Gerente de Conta");
         }
 
         public override void AumentarSalario()
         {
             // Salario = Salario + (Salario * 0.1);
             // Salario = Salario * 1.1;
-            Salario *= 1.15;
+            Salario *= 1.05;
         }
 
         public override double GetBonificacao()
         {
-            return Salario *= 1.5;
+            return Salario *= 0.25;
         }
 
     }
