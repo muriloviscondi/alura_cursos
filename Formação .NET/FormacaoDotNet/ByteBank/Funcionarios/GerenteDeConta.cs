@@ -1,9 +1,8 @@
-﻿using ByteBank.Sistemas;
-using System;
+﻿using System;
 
 namespace ByteBank.Funcionarios
 {
-    public class GerenteDeConta : Autenticavel
+    public class GerenteDeConta : FuncionarioAutenticavel
     {
         public GerenteDeConta(string cpf) : base(4000, cpf)
         {
