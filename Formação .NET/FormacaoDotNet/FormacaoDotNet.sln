@@ -61,6 +61,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-EntendendoHerancaEInterfa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByteBank", "ByteBank\ByteBank.csproj", "{48F65D32-B5B5-4F0E-9DB7-460AF165372F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-ByteBankExceptions", "4-ByteBankExceptions", "{5B897343-2CC1-4DD7-B576-7BA195B52077}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByteBankExceptions", "ByteBankExceptions\ByteBankExceptions.csproj", "{00FF5090-7D0C-43CA-A1E6-B3AE134582EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,6 +175,10 @@ Global
 		{48F65D32-B5B5-4F0E-9DB7-460AF165372F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48F65D32-B5B5-4F0E-9DB7-460AF165372F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48F65D32-B5B5-4F0E-9DB7-460AF165372F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00FF5090-7D0C-43CA-A1E6-B3AE134582EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00FF5090-7D0C-43CA-A1E6-B3AE134582EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00FF5090-7D0C-43CA-A1E6-B3AE134582EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00FF5090-7D0C-43CA-A1E6-B3AE134582EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -202,6 +210,7 @@ Global
 		{05D01065-1A18-408F-B87A-643F23C86591} = {DA81E029-0966-4E3C-86C9-99901C04191C}
 		{E8905F58-6606-4AA7-AA05-16781BDAA115} = {DA81E029-0966-4E3C-86C9-99901C04191C}
 		{48F65D32-B5B5-4F0E-9DB7-460AF165372F} = {FF3D134A-E442-43B6-B4F2-B19FAF1E47ED}
+		{00FF5090-7D0C-43CA-A1E6-B3AE134582EE} = {5B897343-2CC1-4DD7-B576-7BA195B52077}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8EFA75ED-E100-4414-9470-BEF1D9BA0BD2}

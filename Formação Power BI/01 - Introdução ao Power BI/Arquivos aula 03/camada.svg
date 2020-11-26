@@ -1,0 +1,18 @@
+<svg id="b041e784-1c70-4599-9146-cd6107f3e208" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 426 128">
+    <defs>
+        <style>.b328a7ff-eb8a-4e79-bccd-bdcc139abcd1{fill:#fff;}</style>
+    </defs>
+    <title>camada</title>
+    <g data-name="Alto">
+        <rect class="b328a7ff-eb8a-4e79-bccd-bdcc139abcd1" x="0.5" y="0.5" width="127" height="127"/>
+        <path id="Alto" d="M142,12V138H16V12H142m1-1H15V139H143V11Z" transform="translate(-15 -11)"/>
+    </gid=>
+    <g data-name="Medio">
+        <rect class="b328a7ff-eb8a-4e79-bccd-bdcc139abcd1" x="149.5" y="0.5" width="127" height="127"/>
+        <path id="Medio" d="M291,12V138H165V12H291m1-1H164V139H292V11Z" transform="translate(-15 -11)"/>
+    </g>
+    <g data-name="Baixo">
+        <rect class="b328a7ff-eb8a-4e79-bccd-bdcc139abcd1" x="298.5" y="0.5" width="127" height="127"/>
+        <path id="Baixo" d="M440,12V138H314V12H440m1-1H313V139H441V11Z" transform="translate(-15 -11)"/>
+    </g>
+</svg>
