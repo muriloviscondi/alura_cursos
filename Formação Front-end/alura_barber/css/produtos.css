@@ -78,3 +78,15 @@ header {
   font-weight: bold;
   margin-top: 10px;
 }
+
+footer {
+  padding: 40px 0;
+  text-align: center;
+  background: url('/img/produtos/bg.jpg');
+}
+
+.copyright {
+  margin-top: 16px;
+  color: #fff;
+  font-size: 12px;
+}
