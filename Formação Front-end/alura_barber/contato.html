@@ -29,26 +29,27 @@
     </header>
 
     <main>
-      <ul class="products">
-        <li>
-          <h2>Cabelo</h2>
-          <img src="/img/produtos/cabelo.jpg" alt="cabelo">
-          <p class="description">Na tesoura ou na máquina, como o cliente preferir</p>
-          <p class="price">R$ 25,00</p>
-        </li>
-        <li>
-          <h2>Barba</h2>
-          <img src="/img/produtos/barba.jpg" alt="barba">
-          <p class="description">Corte e desenho profissional de barba</p>
-          <p class="price">R$ 18,00</p>
-        </li>
-        <li>
-          <h2>Cabelo + Barba</h2>
-          <img src="/img/produtos/cabelo+barba.jpg" alt="Cabelo + Barba">
-          <p class="description">Pacote completo de cabelo e barba</p>
-          <p class="price">R$ 35,00</p>
-        </li>
-      </ul>
+      <form>
+        <div class="form-group">
+          <label for="nome">Nome:</label>
+          <input type="text" name="nome" id="nome">
+        </div>
+        <div class="form-group">
+          <label for="sobrenome">Sobrenome:</label>
+          <input type="text" name="sobrenome" id="sobrenome">
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail:</label>
+          <input type="email" name="email" id="email">
+        </div>
+        <div class="form-group">
+          <label for="telefone">Telefone:</label>
+          <input type="tel" name="telefone" id="telefone">
+        </div>
+        <div class="btn-submit">
+          <input type="submit" value="Enviar Formulário">
+        </div>
+      </form>
     </main>
 
     <footer>
