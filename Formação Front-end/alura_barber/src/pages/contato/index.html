@@ -30,27 +30,95 @@
     </header>
 
     <main id="">
-      <form>
-        <div class="form-group">
-          <label for="nome">Nome:</label>
-          <input type="text" name="nome" id="nome">
-        </div>
-        <div class="form-group">
-          <label for="sobrenome">Sobrenome:</label>
-          <input type="text" name="sobrenome" id="sobrenome">
-        </div>
-        <div class="form-group">
-          <label for="email">E-mail:</label>
-          <input type="email" name="email" id="email">
-        </div>
-        <div class="form-group">
-          <label for="telefone">Telefone:</label>
-          <input type="tel" name="telefone" id="telefone">
-        </div>
-        <div class="btn-submit">
-          <input type="submit" value="Enviar Formulário">
-        </div>
-      </form>
+      <section>
+        <form>
+          <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Primeiro Nome" required>
+          </div>
+          <div class="form-group">
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" name="sobrenome" id="sobrenome" placeholder="Último Nome" required>
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" placeholder="name@user.com.br" required>
+          </div>
+          <div class="form-group">
+            <label for="telefone">Telefone:</label>
+            <input type="tel" name="telefone" id="telefone" placeholder="(XX) XXXX-XXXX" required>
+          </div>
+
+          <div class="text-area-group">
+            <label for="mensagem">Mensagem:</label>
+            <textarea name="mensagem" id="mensagem"></textarea>
+          </div>
+
+          <div class="form-group-content">
+            <p>Como prefere o nosso contato?</p>
+            <div class="input-group">
+              <div class="radio-content">
+                <label for="forma-contato">Telefone</label>
+                <input type="radio" name="forma-contato" checked id="radio_telefone">
+              </div>
+              <div class="radio-content">
+                <label for="forma-contato">E-mail</label>
+                <input type="radio" name="forma-contato" id="radio_email">
+              </div>
+              <div class="radio-content">
+                <label for="forma-contato">Whatsapp</label>
+                <input type="radio" name="forma-contato" id="radio_whatsapp">
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group select-group">
+            <label for="horario-atendido">Qual horário prefere ser atendido?</label>
+            <select name="horario-atendido" id="horario-atendido">
+              <option value="1" >Manhã</option>
+              <option value="2" >Tarde</option>
+              <option value="3" >Noite</option>
+            </select>
+          </div>
+
+          <div class="input-group checkbox-group">
+            <input type="checkbox" name="newsletter" id="newsletter">
+            <label for="newsletter">Gostaria de receber nossas novidades por e-mail?</label>
+          </div>
+
+          <div class="btn-submit">
+            <input type="submit" value="Enviar Formulário">
+          </div>
+        </form>
+      </section>
+
+      <section id="horario-funcionamento">
+        <h2>Horário de Funcionamento</h2>
+        <table>
+          <tr>
+          </tr>
+          <thead>
+            <tr>
+              <th>Dia</th>
+              <th>Horários</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Segunda</td>
+              <td>8h ~ 20h</td>
+            </tr>
+            <tr>
+              <td>Quarta</td>
+              <td>8h ~ 20h</td>
+            </tr>
+            <tr>
+              <td>Sexta</td>
+              <td>8h ~ 20h</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
     </main>
 
     <footer class="bg-img-footer">

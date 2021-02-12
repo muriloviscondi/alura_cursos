@@ -1,0 +1,142 @@
+main {
+  width: 940px;
+  margin: 0 auto;
+}
+
+form {
+  margin: 40px auto;
+}
+
+.form-group,
+.text-area-group {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-group label,
+.text-area-group label {
+  width: 132px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.form-group input,
+.text-area-group textarea {
+  width: 300px;
+  height: 40px;
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+}
+
+.text-area-group textarea {
+  resize: none;
+  height: 132px;
+}
+
+.form-group input:hover,
+.text-area-group textarea:hover {
+  background-color: rgb(250, 250, 250);
+}
+
+.form-group input:focus,
+.text-area-group textarea:focus {
+  outline: none;
+  background-color: rgb(230, 230, 230);
+}
+
+.form-group-content {
+  margin: 32px auto;
+}
+
+.form-group-content p {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-group .radio-content + .radio-content,
+.input-group .input-content + .input-content {
+  margin-left: 32px;
+}
+
+.input-group label {
+  margin-right: 8px;
+}
+
+.form-group.select-group label {
+  width: 364px;
+}
+
+.form-group.select-group select {
+  width: 120px;
+  height: 30px;
+  padding: 4px 8px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.form-group.select-group select:focus,
+.btn-submit input:focus {
+  outline: none;
+}
+
+.input-group.checkbox-group label {
+  font-size: 20px;
+  line-height: 30px;
+  margin-left: 8px;
+}
+
+.btn-submit {
+  text-align: center;
+  margin-top: 32px;
+}
+
+.btn-submit input {
+  width: 200px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #131514;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 500ms all;
+}
+
+.btn-submit input:hover {
+  opacity: 0.85;
+  transform: scale(1.2);
+}
+
+#horario-funcionamento h2 {
+  text-align: center;
+  font-size: 20px;
+}
+
+table {
+  margin: 20px auto 40px;
+  border-collapse: collapse;
+}
+
+thead {
+  color: #fff;
+  font-weight: bold;
+  background: #555;
+}
+
+td, th {
+  border: 1px solid #000;
+  padding: 8px 16px;
+}
