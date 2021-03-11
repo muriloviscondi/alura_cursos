@@ -72,6 +72,14 @@ section + section {
 
 .imagem-beneficios {
   width: 60%;
+  opacity: 1;
+  transition: 1s;
+  border-radius: 12px;
+  box-shadow: 0px 0px 8px lightskyblue;
+}
+
+.imagem-beneficios:hover {
+  opacity: 0.3;
 }
 
 .video {
