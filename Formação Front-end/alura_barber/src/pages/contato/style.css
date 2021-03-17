@@ -1,5 +1,6 @@
 main {
   width: 940px;
+  max-width: 95vw;
   margin: 0 auto;
 }
 
@@ -7,10 +8,19 @@ form {
   margin: 40px auto;
 }
 
+section,
+.form-group,
+.text-area-group,
+.form-group-content {
+  width: auto;
+  max-width: 100vw;
+}
+
 .form-group,
 .text-area-group {
   margin-bottom: 20px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }

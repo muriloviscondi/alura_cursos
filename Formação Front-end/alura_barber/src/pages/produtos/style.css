@@ -4,6 +4,7 @@
   padding: 24px 0;
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 25px;
 }
@@ -30,6 +31,10 @@
   font-weight: bold;
 }
 
+.products img {
+  width: 100%;
+}
+
 .products .description {
   font-size: 18px;
   margin-bottom: 10px;
@@ -42,3 +47,18 @@
   margin-top: 10px;
 }
 
+@media screen and (max-width: 950px) {
+  .products {
+    width: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .products li {
+    width: 275px;
+  }
+
+  .products img {
+    width: 200px;
+  }
+}
